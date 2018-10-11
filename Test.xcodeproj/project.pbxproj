@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8262DD1521103B020005E323 /* MEBCollectionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262DD1421103B020005E323 /* MEBCollectionItemCell.m */; };
+		8262DD2C211064C40005E323 /* MEBItemSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262DD2A211064C40005E323 /* MEBItemSelectView.m */; };
+		8262DD2F211064CB0005E323 /* MEBItemSelectEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262DD2D211064CB0005E323 /* MEBItemSelectEntity.m */; };
 		82976DF8210039E40073BC89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82976DF7210039E40073BC89 /* AppDelegate.m */; };
 		82976DFB210039E40073BC89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82976DFA210039E40073BC89 /* ViewController.m */; };
 		82976DFE210039E40073BC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82976DFC210039E40073BC89 /* Main.storyboard */; };
 		82976E00210039E60073BC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82976DFF210039E60073BC89 /* Assets.xcassets */; };
 		82976E03210039E60073BC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82976E01210039E60073BC89 /* LaunchScreen.storyboard */; };
 		82976E06210039E60073BC89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82976E05210039E60073BC89 /* main.m */; };
+		B5E62317A1805B36DC0929E5 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5724DBBA626246BA87B67 /* libPods-Test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A58C8AFC450F198C4D868E1 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		8262DD1321103B020005E323 /* MEBCollectionItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEBCollectionItemCell.h; sourceTree = "<group>"; };
+		8262DD1421103B020005E323 /* MEBCollectionItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEBCollectionItemCell.m; sourceTree = "<group>"; };
+		8262DD2A211064C40005E323 /* MEBItemSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBItemSelectView.m; sourceTree = "<group>"; };
+		8262DD2B211064C40005E323 /* MEBItemSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBItemSelectView.h; sourceTree = "<group>"; };
+		8262DD2D211064CB0005E323 /* MEBItemSelectEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBItemSelectEntity.m; sourceTree = "<group>"; };
+		8262DD2E211064CB0005E323 /* MEBItemSelectEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBItemSelectEntity.h; sourceTree = "<group>"; };
 		82976DF3210039E40073BC89 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82976DF6210039E40073BC89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82976DF7210039E40073BC89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,8 @@
 		82976E02210039E60073BC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82976E04210039E60073BC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82976E05210039E60073BC89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91C5724DBBA626246BA87B67 /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E0858381EF1BB48F65E4C /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E62317A1805B36DC0929E5 /* libPods-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C4DB6B82B16D7812D99A909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A58C8AFC450F198C4D868E1 /* Pods-Test.debug.xcconfig */,
+				AC4E0858381EF1BB48F65E4C /* Pods-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		82976DEA210039E40073BC89 = {
 			isa = PBXGroup;
 			children = (
 				82976DF5210039E40073BC89 /* Test */,
 				82976DF4210039E40073BC89 /* Products */,
+				7C4DB6B82B16D7812D99A909 /* Pods */,
+				A9DAC09EE9FDB0446B30537B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +85,12 @@
 			children = (
 				82976DF6210039E40073BC89 /* AppDelegate.h */,
 				82976DF7210039E40073BC89 /* AppDelegate.m */,
+				8262DD2E211064CB0005E323 /* MEBItemSelectEntity.h */,
+				8262DD2D211064CB0005E323 /* MEBItemSelectEntity.m */,
+				8262DD2B211064C40005E323 /* MEBItemSelectView.h */,
+				8262DD2A211064C40005E323 /* MEBItemSelectView.m */,
+				8262DD1321103B020005E323 /* MEBCollectionItemCell.h */,
+				8262DD1421103B020005E323 /* MEBCollectionItemCell.m */,
 				82976DF9210039E40073BC89 /* ViewController.h */,
 				82976DFA210039E40073BC89 /* ViewController.m */,
 				82976DFC210039E40073BC89 /* Main.storyboard */,
@@ -71,6 +102,14 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		A9DAC09EE9FDB0446B30537B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C5724DBBA626246BA87B67 /* libPods-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82976E09210039E60073BC89 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				A4327AB4B942F9E13B08C37A /* [CP] Check Pods Manifest.lock */,
 				82976DEF210039E40073BC89 /* Sources */,
 				82976DF0210039E40073BC89 /* Frameworks */,
 				82976DF1210039E40073BC89 /* Resources */,
@@ -136,14 +176,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4327AB4B942F9E13B08C37A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82976DEF210039E40073BC89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82976DFB210039E40073BC89 /* ViewController.m in Sources */,
+				8262DD1521103B020005E323 /* MEBCollectionItemCell.m in Sources */,
 				82976E06210039E60073BC89 /* main.m in Sources */,
 				82976DF8210039E40073BC89 /* AppDelegate.m in Sources */,
+				8262DD2F211064CB0005E323 /* MEBItemSelectEntity.m in Sources */,
+				8262DD2C211064C40005E323 /* MEBItemSelectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +345,12 @@
 		};
 		82976E0A210039E60073BC89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A58C8AFC450F198C4D868E1 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meituan.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,14 +359,12 @@
 		};
 		82976E0B210039E60073BC89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4E0858381EF1BB48F65E4C /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meituan.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
